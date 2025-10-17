@@ -40,6 +40,6 @@ public class Card {
                 break;
         }
         // Constructs the image path using the card's value and suit
-        return "/images/" + valueName + "_of_" + suit.toLowerCase() + ".jpg";
+        return "/CardImages/" + valueName + "_of_" + suit.toLowerCase() + ".jpg";
     }
 }
